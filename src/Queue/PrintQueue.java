@@ -48,8 +48,8 @@ public class PrintQueue {
         int i=1;
         while(currentNode != null){
             System.out.println(i + 
-                    ". Name: " + currentNode.getData().getName() +
-                    "\tType: " + currentNode.getData().type()); //getType doesn't exist in data.
+                    ". \tName: " + currentNode.getData().getName() +
+                    "\tType: " + currentNode.getData().getType());
             currentNode = currentNode.getNext();
             i++;
         }

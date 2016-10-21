@@ -11,7 +11,7 @@ public class WordDocument<wordDoc> extends Document{
     }
     
     @Override
-    public wordDoc type(){
-        return (wordDoc) "Word Document";
+    public Class<WordDocument> getType(){
+        return WordDocument.class;
     }
 }

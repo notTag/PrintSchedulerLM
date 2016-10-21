@@ -10,7 +10,7 @@ public class PdfDocument<pdfDoc> extends Document {
     }
     
     @Override
-    public pdfDoc type(){
-        return (pdfDoc) "PDF Document";
+    public Class<PdfDocument> getType(){
+        return PdfDocument.class;
     }
 }

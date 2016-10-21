@@ -9,5 +9,5 @@ public abstract class Document<D> {
     public String getName(){
         return this.name;
     }
-    public abstract D type();
+    public abstract Class<D> getType();
 }
